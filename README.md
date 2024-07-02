@@ -4,10 +4,10 @@
 This project aims to classify images of fruits and vegetables into 36 different categories. It utilizes deep learning techniques with TensorFlow and Python. The model is trained on a dataset containing labeled images of various fruits and vegetables.
 
 ## Project Structure
-- `data/`: Contains the dataset (images) organized into subfolders for each class.
-- `model/`: Stores the trained model files.
-- `src/`: Python scripts for data preprocessing, model training, and inference.
-- `requirements.txt`: Lists the required Python packages.
+- `JupyterNotebook/`: Contains the notebooks ImageRecognition.ipynb which prprocesses the Data and creates the model. Testing_ImageRecognition.ipynb contains code to test the model and view the Results and statistics.
+- `trained_model_Recognition.h5`: This is the model stored in h5 file format.
+- `training_hist.json`: It can be used to visualize the model in histogram format.
+- 'requirments': The requirments to acces the project are listed in Readme.md file in main branch.
 
 ## Usage
 1. Prepare your dataset:
